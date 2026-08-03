@@ -1,0 +1,14 @@
+{
+  "name": "forge-mcp-server",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "MCP server exposing recruiter-grade tools: profile facts, project map, honest skill inventory",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test src/tools.test.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "ai-agents", "typescript", "cursor", "claude"],
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
